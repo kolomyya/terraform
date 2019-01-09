@@ -1,5 +1,6 @@
 # terraform
 This repository if for creating multiple Environments
+
 DEV
 
  VPC
@@ -12,6 +13,8 @@ DEV
  Need to Create LB
  Kubernetes Cluster
  Kubernetes Private Cluster
+ 
+ 
 UAT
 
  VPC
@@ -23,6 +26,8 @@ UAT
  Instance
  Need to Create LB
  Kubernetes Private Cluster
+ 
+ 
 QA
 
  VPC
@@ -34,6 +39,8 @@ QA
  Instance
  Need to Create LB
  Kubernetes Private Cluster
+ 
+ 
 STAGE
 
  VPC
@@ -45,6 +52,8 @@ STAGE
  Instance
  Need to Create LB
  Kubernetes Private Cluster
+ 
+ 
 PROD
 
  VPC
