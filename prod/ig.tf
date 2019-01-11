@@ -1,4 +1,4 @@
-resource  "aws_internet_geteway"  "dev"{
+resource  "aws_internet_gateway"  "dev"{
    vpc_id         =   "${aws_vpc.dev.id}"
    tags {
       NAME        =   "${var.environment}${count.index +1}"

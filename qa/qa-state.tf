@@ -3,8 +3,8 @@ provider "aws" {
 } 
 terraform{
   backend"s3"{
-    bucket = "eu-west-uat-state-andrew"
-    key = "uat-env-state-cluster"
+    bucket = "eu-west-qa-state-andrew"
+    key = "qa-env-state-cluster"
     region = "eu-west-1"
 
  }
